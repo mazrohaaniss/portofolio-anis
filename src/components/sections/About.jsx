@@ -24,9 +24,8 @@ const About = () => {
 
         <div
           ref={ref}
-          className={`grid grid-cols-1 lg:grid-cols-2 gap-20 items-start transition-all duration-1000 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-          }`}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-20 items-start transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+            }`}
         >
           {/* ═══ LEFT — TOOLS ═══ */}
           <div>
@@ -79,9 +78,8 @@ const About = () => {
                   <button
                     key={i}
                     onClick={() => setPage(i)}
-                    className={`rounded-full transition-all duration-300 ${
-                      i === page ? "w-5 h-1.5 bg-primary-500" : "w-1.5 h-1.5 bg-border-main hover:bg-primary-300"
-                    }`}
+                    className={`rounded-full transition-all duration-300 ${i === page ? "w-5 h-1.5 bg-primary-500" : "w-1.5 h-1.5 bg-border-main hover:bg-primary-300"
+                      }`}
                   />
                 ))}
               </div>
@@ -113,7 +111,7 @@ const About = () => {
             {/* Stats — horizontal, no borders/cards */}
             <div className="flex gap-10">
               {[
-                { n: "3+", l: "Projek" },
+                { n: "5+", l: "Projek" },
                 { n: "2", l: "Penghargaan" },
                 { n: "3.86", l: "IPK" },
               ].map((s, i) => (

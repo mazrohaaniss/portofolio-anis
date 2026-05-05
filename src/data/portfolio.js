@@ -69,7 +69,7 @@ export const education = [
     id: 1,
     degree: "S1 Teknik Komputer",
     school: "Universitas Diponegoro",
-    year: "2021 – 2025",
+    year: "2022 – 2026",
     gpa: "3.86",
     current: false,
   },
@@ -77,7 +77,7 @@ export const education = [
     id: 2,
     degree: "Rekayasa Perangkat Lunak",
     school: "SMK N 2 Semarang",
-    year: "2018 – 2021",
+    year: "2019 – 2022",
     gpa: null,
     current: false,
   },
@@ -117,6 +117,13 @@ export const achievements = [
     event: "Techomfest 2025",
     icon: "🎖️",
     link: "/Finalis_Mazroha Anis Sugesti.pdf",
+  },
+  {
+    id: 3,
+    title: "Sertifikat Apresiasi",
+    event: "Penghargaan",
+    icon: "📜",
+    link: "/sertifikat apresiasi_Mazroha Anis Sugesti.pdf",
   },
 ];
 

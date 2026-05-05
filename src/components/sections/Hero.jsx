@@ -60,7 +60,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
               <a 
-                href="/CV_Mazroha Anis Sugesti.pdf" 
+                href="/CV-Mazroha Anis Sugesti.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-primary-500 text-white font-bold rounded-full hover:bg-primary-600 hover:-translate-y-1 hover:shadow-xl transition-all shadow-primary-500/30 shadow-lg"

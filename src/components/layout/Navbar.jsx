@@ -57,26 +57,27 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* CTA Button */}
-        <Link
-          to="contact"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-80}
-          className="hidden md:block btn-primary text-sm !px-6 !py-2.5"
-        >
-          Let&apos;s Connect
-        </Link>
+        {/* Right Side: CTA & Mobile Menu */}
+        <div className="flex items-center gap-3">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-80}
+            className="btn-primary text-xs sm:text-sm !px-4 md:!px-6 !py-2 md:!py-2.5"
+          >
+            Let&apos;s Connect
+          </Link>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-text-main p-2"
-          aria-label="Toggle menu"
-        >
-          {isOpen ? <HiX size={24} /> : <HiMenuAlt3 size={24} />}
-        </button>
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden text-text-main p-2 -mr-2"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <HiX size={24} /> : <HiMenuAlt3 size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
@@ -105,17 +106,6 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-80}
-            onClick={() => setIsOpen(false)}
-            className="btn-primary text-sm text-center mt-2"
-          >
-            Let&apos;s Connect
-          </Link>
         </div>
       </div>
     </nav>
