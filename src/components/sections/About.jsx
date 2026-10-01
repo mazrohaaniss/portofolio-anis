@@ -98,13 +98,12 @@ const About = () => {
             {/* Bio */}
             <div className="space-y-4">
               <p className="text-text-main text-base leading-relaxed font-medium">
-                Mahasiswa <span className="font-bold">S1 Teknik Komputer</span> yang antusias menggabungkan pengetahuan teknis dengan kreativitas untuk merancang solusi digital yang inovatif dan responsif.
+                Lulusan <span className="font-bold">S1 Teknik Komputer</span> yang memiliki pengalaman di bidang pengembangan web, serta pelayanan pelanggan dan penjualan.
               </p>
               <p className="text-text-muted text-sm leading-relaxed">
-                Berpengalaman dalam pengembangan web menggunakan{" "}
-                <span className="font-semibold text-text-main">CodeIgniter, React.js, HTML, CSS, dan JavaScript</span>
-                , serta desain antarmuka dengan{" "}
-                <span className="font-semibold text-text-main">Figma</span>.
+                Berpengalaman menggunakan{" "}
+                <span className="font-semibold text-text-main">CodeIgniter, React.js, HTML, CSS, JavaScript, dan Figma</span>{" "}
+                untuk mengembangkan serta merancang solusi digital. Memiliki kemampuan komunikasi, kerja sama tim, dan pemecahan masalah yang diperoleh dari pengalaman di bidang teknologi dan retail. Saat ini terbuka untuk mempelajari hal baru dan mengembangkan karier di berbagai bidang.
               </p>
             </div>
 

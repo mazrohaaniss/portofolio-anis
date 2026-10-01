@@ -13,8 +13,8 @@ export const personalInfo = {
   title: "Web Developer",
   university: "Universitas Diponegoro",
   major: "S1 Teknik Komputer",
-  bio: "Saya adalah mahasiswa S1 Teknik Komputer dengan minat dan keahlian dalam pengembangan web. Saya sangat antusias menggabungkan pengetahuan teknis dengan kreativitas untuk merancang solusi digital yang inovatif dan responsif.",
-  bioExtended: "Selama studi, saya telah mengembangkan pemahaman mendalam tentang pengembangan aplikasi berbasis web menggunakan teknologi seperti CodeIgniter, React.js, HTML, CSS, dan JavaScript. Saya juga memiliki pengalaman dalam menggunakan Figma untuk merancang antarmuka pengguna yang menarik dan intuitif.",
+  bio: "Lulusan S1 Teknik Komputer yang memiliki pengalaman di bidang pengembangan web, UI/UX, serta pelayanan pelanggan dan penjualan.",
+  bioExtended: "Berpengalaman menggunakan CodeIgniter, React.js, HTML, CSS, JavaScript, dan Figma untuk mengembangkan serta merancang solusi digital. Memiliki kemampuan komunikasi, kerja sama tim, dan pemecahan masalah yang diperoleh dari pengalaman di bidang teknologi dan retail. Saat ini terbuka untuk mempelajari hal baru dan mengembangkan karier di berbagai bidang.",
 };
 
 export const experiences = [
