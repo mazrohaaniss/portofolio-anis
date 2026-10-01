@@ -20,28 +20,19 @@ export const personalInfo = {
 export const experiences = [
   {
     id: 1,
-    title: "Intern Web Developer",
-    company: "DINKOMINFO Kab. Pekalongan",
-    year: "2025",
-    type: "internship",
+    title: "Sales Assistant",
+    company: "Buttonscarves",
+    year: "2026 - Sekarang",
+    type: "work",
     description: [
-      "Membuat Back-end website Edukasi dan Komunikasi",
-      "Membuat Controller website Edukasi dan Komunikasi",
+      "Mempromosikan dan merekomendasikan produk sesuai kebutuhan pelanggan",
+      "Memberikan pelayanan yang ramah dan membantu pelanggan selama berada di area toko",
+      "Berupaya mencapai target penjualan yang ditetapkan perusahaan",
+      "Melaksanakan stock opname secara berkala untuk memastikan kesesuaian stok barang"
     ],
   },
   {
     id: 2,
-    title: "Proyek Kuliah Kerja Nyata",
-    company: "Desa Mlokomanis",
-    year: "2025",
-    type: "project",
-    description: [
-      "Membuat desain figma website Mlokomanis sektor Pertanian",
-      "Membuat Full-stack role pertanian",
-    ],
-  },
-  {
-    id: 3,
     title: "Crew Store",
     company: "Dimsum Sumgo",
     year: "2026",
@@ -52,7 +43,30 @@ export const experiences = [
     ],
   },
   {
+    id: 3,
+    title: "Intern Web Developer",
+    company: "DINKOMINFO Kab. Pekalongan",
+    year: "2025",
+    type: "internship",
+    description: [
+      "Membuat Back-end website Edukasi dan Komunikasi",
+      "Membuat Controller website Edukasi dan Komunikasi",
+    ],
+  },
+  {
     id: 4,
+    title: "Proyek Kuliah Kerja Nyata",
+    company: "Desa Mlokomanis",
+    year: "2025",
+    type: "project",
+    description: [
+      "Membuat desain figma website Mlokomanis sektor Pertanian",
+      "Membuat Full-stack role pertanian",
+    ],
+  },
+
+  {
+    id: 5,
     title: "Crew Store",
     company: "Teh Jawa",
     year: "2022",

@@ -54,7 +54,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-text-muted text-base lg:text-lg leading-relaxed font-medium max-w-xl">
-              Saya adalah seseorang dengan pola pikir kreatif dan dorongan untuk mencapai hasil nyata. Minat utama saya berada di bidang <span className="text-text-main font-bold">pengembangan web</span>, didukung oleh pengalaman dalam <span className="text-text-main font-bold">desain UI/UX</span> dan penyelesaian masalah. Selain itu, saya juga memiliki ketertarikan pada pembuatan konten kreatif.
+              Saya adalah lulusan S1 Teknik Komputer dengan pengalaman di bidang pengembangan web, dan pelayanan pelanggan. Saya senang mempelajari hal baru, memecahkan masalah, dan terbuka terhadap peluang untuk mengembangkan karier di berbagai bidang.
             </p>
 
             {/* Buttons */}
